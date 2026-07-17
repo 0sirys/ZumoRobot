@@ -5,6 +5,263 @@
 	(uuid "b3437995-bb94-4c2f-9ed8-b1af477fe956")
 	(paper "USLedger")
 	(lib_symbols
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:CONN-TH_B4B-PH-K-S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:B0540W_C7420325"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3691,145 +3948,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+7.5V"
 			(power global)
 			(pin_numbers
@@ -4362,6 +4480,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Fuente\n3.3V"
 		(exclude_from_sim no)
@@ -4476,16 +4733,6 @@
 		)
 		(uuid "e4e93943-5d0a-483c-b31c-e919fdbe2126")
 	)
-	(text "Fuente\n5V"
-		(exclude_from_sim no)
-		(at 174.752 58.674 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "eb7e8b91-3281-4720-9a8a-6f2eddf7855e")
-	)
 	(text "3V-5V"
 		(exclude_from_sim no)
 		(at 23.368 95.504 0)
@@ -4496,22 +4743,17 @@
 		)
 		(uuid "f3e08378-528c-4054-84f7-93136c1ffb15")
 	)
-	(text "Solo Salida"
-		(exclude_from_sim no)
-		(at 269.748 199.644 0)
-		(effects
-			(font
-				(size 0.55 0.55)
-			)
-			(justify left)
-		)
-		(uuid "f65fc02f-7c10-4a34-8e01-1213009c3de0")
-	)
 	(junction
 		(at 199.39 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0541246d-186e-4e8d-9a30-a6787075fd5a")
+	)
+	(junction
+		(at 354.33 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07808ef2-168d-4223-806e-e68d3ce1b4c8")
 	)
 	(junction
 		(at 67.31 91.44)
@@ -4532,6 +4774,12 @@
 		(uuid "330ad5f7-ce96-4b78-a3a9-9d74d5bfdd2c")
 	)
 	(junction
+		(at 354.33 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33f93d33-6f7b-417b-8052-0d381af58975")
+	)
+	(junction
 		(at 63.5 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4544,6 +4792,12 @@
 		(uuid "4add2cfd-bc3f-45ab-95b3-5e500c16a893")
 	)
 	(junction
+		(at 354.33 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e986bf2-f69c-466b-bc72-f6025dfe6ec3")
+	)
+	(junction
 		(at 223.52 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4554,6 +4808,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64095cd2-6048-491d-951f-87bc4b1d8ca5")
+	)
+	(junction
+		(at 354.33 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc896c8-37d6-4f1e-b411-940950bb8728")
+	)
+	(junction
+		(at 354.33 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f831524-d6b9-4343-9414-b6f5f53408ef")
 	)
 	(junction
 		(at 199.39 52.07)
@@ -4602,6 +4868,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b53cefd9-6700-45cb-afdc-2f362e57fc1e")
+	)
+	(junction
+		(at 354.33 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c60d58ff-e415-4806-8674-001df17d4c2b")
 	)
 	(junction
 		(at 105.41 115.57)
@@ -4673,6 +4945,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 111.76) (xy 363.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0332f47d-99cf-43eb-934f-17db559ce2cf")
+	)
+	(wire
+		(pts
 			(xy 261.62 46.99) (xy 254 46.99)
 		)
 		(stroke
@@ -4713,6 +4995,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 160.02) (xy 356.87 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1424312b-9085-4bb4-8ded-bc78bced3be7")
+	)
+	(wire
+		(pts
 			(xy 217.17 97.79) (xy 217.17 102.87)
 		)
 		(stroke
@@ -4730,16 +5022,6 @@
 			(type default)
 		)
 		(uuid "15a0cfc2-a81a-4e20-a813-0b414364a53d")
-	)
-	(wire
-		(pts
-			(xy 179.07 31.75) (xy 179.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "181e73a5-ec94-499d-b6a9-304a540443c8")
 	)
 	(wire
 		(pts
@@ -4783,6 +5065,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 176.53) (xy 276.86 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fee538a-19b8-41f9-895e-100f56811dd6")
+	)
+	(wire
+		(pts
 			(xy 154.94 41.91) (xy 154.94 45.72)
 		)
 		(stroke
@@ -4823,6 +5115,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 119.38) (xy 354.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288dd665-cbe5-43d3-856c-d9b64f7412f7")
+	)
+	(wire
+		(pts
 			(xy 267.97 148.59) (xy 280.67 148.59)
 		)
 		(stroke
@@ -4843,6 +5145,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 163.83) (xy 349.25 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8e51ff-d52b-4af9-84c6-6907d0979bf2")
+	)
+	(wire
+		(pts
 			(xy 48.26 36.83) (xy 48.26 39.37)
 		)
 		(stroke
@@ -4850,6 +5162,16 @@
 			(type default)
 		)
 		(uuid "30760795-fd68-49d4-abad-3b4cbf39b342")
+	)
+	(wire
+		(pts
+			(xy 363.22 116.84) (xy 354.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313ee16e-b6c4-4976-a6f8-740557004c62")
 	)
 	(wire
 		(pts
@@ -4873,6 +5195,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 199.39) (xy 267.97 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3637eef7-1d5a-45b2-84e8-01bda8502124")
+	)
+	(wire
+		(pts
 			(xy 217.17 95.25) (xy 217.17 97.79)
 		)
 		(stroke
@@ -4880,16 +5212,6 @@
 			(type default)
 		)
 		(uuid "364e2f6a-38fb-44cc-8b7d-6e19b286e56c")
-	)
-	(wire
-		(pts
-			(xy 284.48 153.67) (xy 267.97 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c23af39-1996-4e4f-b275-dd832e99d54a")
 	)
 	(wire
 		(pts
@@ -4953,16 +5275,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 54.61) (xy 179.07 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "451bc7ad-36d3-444b-bde0-03bcd8ba3267")
-	)
-	(wire
-		(pts
 			(xy 67.31 91.44) (xy 67.31 93.98)
 		)
 		(stroke
@@ -4993,6 +5305,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 121.92) (xy 354.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f747245-6796-46d7-bea4-4ddbee06d418")
+	)
+	(wire
+		(pts
 			(xy 125.73 43.18) (xy 113.03 43.18)
 		)
 		(stroke
@@ -5000,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "51e47588-45b0-4778-aa30-bfa8e22848b5")
+	)
+	(wire
+		(pts
+			(xy 356.87 171.45) (xy 349.25 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528f121a-c11c-4f04-b849-406bcf21a91d")
 	)
 	(wire
 		(pts
@@ -5033,6 +5365,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 179.07) (xy 276.86 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5817a836-f15c-49c5-873b-63448ae5e473")
+	)
+	(wire
+		(pts
 			(xy 88.9 106.68) (xy 88.9 109.22)
 		)
 		(stroke
@@ -5040,6 +5382,16 @@
 			(type default)
 		)
 		(uuid "5a32db95-e026-47e2-b081-f7733e359a4e")
+	)
+	(wire
+		(pts
+			(xy 276.86 171.45) (xy 267.97 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b30556c-8884-4858-80a2-467acb2f0de4")
 	)
 	(wire
 		(pts
@@ -5053,6 +5405,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 181.61) (xy 276.86 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3cb847-8398-4826-bdcf-fc973d98761d")
+	)
+	(wire
+		(pts
 			(xy 60.96 106.68) (xy 63.5 106.68)
 		)
 		(stroke
@@ -5063,16 +5425,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 170.18) (xy 355.6 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8184e9-a4bb-4a5c-a56b-a05b9a6a15c2")
-	)
-	(wire
-		(pts
 			(xy 222.25 97.79) (xy 222.25 128.27)
 		)
 		(stroke
@@ -5080,6 +5432,16 @@
 			(type default)
 		)
 		(uuid "605c8aa3-e12e-455c-9db8-e85b0a17f56f")
+	)
+	(wire
+		(pts
+			(xy 267.97 156.21) (xy 278.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615a15d3-bb12-44ea-8910-27127684706a")
 	)
 	(wire
 		(pts
@@ -5113,6 +5475,26 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 172.72) (xy 397.51 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bcd964-15a1-445a-9c27-b86ccc90b7d4")
+	)
+	(wire
+		(pts
+			(xy 354.33 114.3) (xy 363.22 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6953b7ee-fe27-4879-a30a-753a9ac19339")
+	)
+	(wire
+		(pts
 			(xy 113.03 43.18) (xy 113.03 44.45)
 		)
 		(stroke
@@ -5120,6 +5502,16 @@
 			(type default)
 		)
 		(uuid "6b49d852-02cb-4f67-8a91-e6388ff4c21d")
+	)
+	(wire
+		(pts
+			(xy 363.22 106.68) (xy 354.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7075b5ff-cfff-4567-a88e-0c44219fb7c3")
 	)
 	(wire
 		(pts
@@ -5133,16 +5525,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 171.45) (xy 363.22 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "737f9a59-e9a8-4d8b-bea1-0466fc76380a")
-	)
-	(wire
-		(pts
 			(xy 60.96 109.22) (xy 72.39 109.22)
 		)
 		(stroke
@@ -5150,6 +5532,16 @@
 			(type default)
 		)
 		(uuid "73d4757c-8d2a-413c-bd8f-9c47bb8c2bca")
+	)
+	(wire
+		(pts
+			(xy 278.13 161.29) (xy 267.97 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740d91a6-144c-4c75-b8a1-357d0f5ad9c6")
 	)
 	(wire
 		(pts
@@ -5183,6 +5575,26 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 162.56) (xy 397.51 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abbcf04-f643-4e91-af66-3bc92da1f2b5")
+	)
+	(wire
+		(pts
+			(xy 363.22 104.14) (xy 354.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbdd18b-70a5-463d-940e-96b315abbb24")
+	)
+	(wire
+		(pts
 			(xy 125.73 43.18) (xy 138.43 43.18)
 		)
 		(stroke
@@ -5190,6 +5602,26 @@
 			(type default)
 		)
 		(uuid "7cf887ff-0a3f-4310-bb97-355b67def330")
+	)
+	(wire
+		(pts
+			(xy 278.13 158.75) (xy 267.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e38fff9-c45a-4fd7-876c-ae83b0354d1e")
+	)
+	(wire
+		(pts
+			(xy 356.87 168.91) (xy 349.25 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea5f00f-9277-4303-9231-39425b8980c4")
 	)
 	(wire
 		(pts
@@ -5210,6 +5642,16 @@
 			(type default)
 		)
 		(uuid "7ff73cf0-1a07-4069-9d64-cdaa581dd757")
+	)
+	(wire
+		(pts
+			(xy 354.33 106.68) (xy 354.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801e4367-204e-471c-9e89-c2c93a9cb21b")
 	)
 	(wire
 		(pts
@@ -5273,6 +5715,26 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 116.84) (xy 354.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885d6270-ca08-43e9-b3c1-bebb487270fa")
+	)
+	(wire
+		(pts
+			(xy 354.33 109.22) (xy 354.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8974adbb-dd46-45ee-a2bf-84c0452c7b0c")
+	)
+	(wire
+		(pts
 			(xy 22.86 92.71) (xy 22.86 91.44)
 		)
 		(stroke
@@ -5290,6 +5752,16 @@
 			(type default)
 		)
 		(uuid "8c1e1899-c26f-4ed4-9098-d6ad5b40d6c7")
+	)
+	(wire
+		(pts
+			(xy 397.51 165.1) (xy 382.27 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2fd819-2b86-46c0-86a1-4e60d969100a")
 	)
 	(wire
 		(pts
@@ -5333,13 +5805,13 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 139.7) (xy 355.6 142.24)
+			(xy 278.13 163.83) (xy 267.97 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96d31f6b-04d6-43b7-b337-9e88bc138bfc")
+		(uuid "966460d2-1343-4a57-b3e2-d5c96fa82e44")
 	)
 	(wire
 		(pts
@@ -5350,6 +5822,16 @@
 			(type default)
 		)
 		(uuid "971543c0-330b-4224-a7c1-e41d000d23f2")
+	)
+	(wire
+		(pts
+			(xy 347.98 158.75) (xy 347.98 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9924b0ae-093f-4c94-8403-605484f09826")
 	)
 	(wire
 		(pts
@@ -5443,6 +5925,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 184.15) (xy 276.86 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a853abaf-7359-4adf-9d35-898aed8a8f46")
+	)
+	(wire
+		(pts
 			(xy 125.73 53.34) (xy 138.43 53.34)
 		)
 		(stroke
@@ -5483,6 +5975,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 100.33) (xy 354.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0129d8b-6507-40fc-8393-b1f1f00a7b08")
+	)
+	(wire
+		(pts
 			(xy 48.26 39.37) (xy 52.07 39.37)
 		)
 		(stroke
@@ -5490,16 +5992,6 @@
 			(type default)
 		)
 		(uuid "b16362f8-28a2-4bbf-a38c-ba2b858fbab4")
-	)
-	(wire
-		(pts
-			(xy 179.07 40.64) (xy 179.07 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b323150b-2721-4bfa-8d35-356bd4663c66")
 	)
 	(wire
 		(pts
@@ -5543,6 +6035,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 173.99) (xy 356.87 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f2f21a-88c4-4c86-8f35-64106e49027e")
+	)
+	(wire
+		(pts
 			(xy 242.57 58.42) (xy 237.49 58.42)
 		)
 		(stroke
@@ -5553,6 +6055,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 121.92) (xy 354.33 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb31f84b-fb27-4fb1-998f-3ac882a27f7e")
+	)
+	(wire
+		(pts
 			(xy 36.83 30.48) (xy 36.83 34.29)
 		)
 		(stroke
@@ -5560,6 +6072,16 @@
 			(type default)
 		)
 		(uuid "bf48827a-3505-47b4-9a14-db6271e0c162")
+	)
+	(wire
+		(pts
+			(xy 354.33 127) (xy 354.33 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d60e6d-f270-4b3c-aa3f-1fa7c72b606e")
 	)
 	(wire
 		(pts
@@ -5603,6 +6125,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 109.22) (xy 354.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d33053-0ac7-4805-909f-9e070186818f")
+	)
+	(wire
+		(pts
 			(xy 261.62 46.99) (xy 261.62 52.07)
 		)
 		(stroke
@@ -5620,6 +6152,26 @@
 			(type default)
 		)
 		(uuid "d5050f9c-84f8-475a-a714-02f2f5f95cf5")
+	)
+	(wire
+		(pts
+			(xy 354.33 104.14) (xy 354.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ee8520-715a-4749-8095-67c7970ded40")
+	)
+	(wire
+		(pts
+			(xy 276.86 173.99) (xy 267.97 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dd478e-7161-4d53-a5c5-e1fc2cd02a6c")
 	)
 	(wire
 		(pts
@@ -5663,16 +6215,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 142.24) (xy 363.22 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e178310b-5bf6-4148-bc06-09d40cccf264")
-	)
-	(wire
-		(pts
 			(xy 261.62 52.07) (xy 261.62 58.42)
 		)
 		(stroke
@@ -5680,6 +6222,16 @@
 			(type default)
 		)
 		(uuid "e34fa29d-cadd-4d18-aa2c-668d653ed281")
+	)
+	(wire
+		(pts
+			(xy 356.87 166.37) (xy 349.25 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bda79a-fc63-4b99-8293-7fc82c612f71")
 	)
 	(wire
 		(pts
@@ -5763,6 +6315,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 175.26) (xy 397.51 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30a6a8c-2fe3-4d09-9b44-9c0b5ebf30ff")
+	)
+	(wire
+		(pts
 			(xy 67.31 96.52) (xy 67.31 99.06)
 		)
 		(stroke
@@ -5821,6 +6383,26 @@
 		)
 		(uuid "fdc2fc5b-d5fc-4eeb-bf39-608444af81c7")
 	)
+	(wire
+		(pts
+			(xy 354.33 119.38) (xy 354.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee5c861-1508-4e83-9060-159e5f6d983f")
+	)
+	(label "IN-ToF4"
+		(at 276.86 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "042db7a5-f70c-48ec-a586-ab685bd55374")
+	)
 	(label "RST"
 		(at 228.6 46.99 0)
 		(effects
@@ -5830,6 +6412,26 @@
 			(justify left bottom)
 		)
 		(uuid "04871f56-3489-4332-bfbd-855eef0b1afc")
+	)
+	(label "PWMA1"
+		(at 278.13 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bc290bd-14ee-4501-bf1f-26f06a1401ea")
+	)
+	(label "PWMA1"
+		(at 349.25 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16678e54-d4ff-4b92-a457-90fa2caccf92")
 	)
 	(label "BATTERY2_LEVEL"
 		(at 284.48 151.13 180)
@@ -5841,6 +6443,16 @@
 		)
 		(uuid "20c1e0ae-abc3-4a6a-86b3-546163b76d8c")
 	)
+	(label "Motor_Fault"
+		(at 349.25 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3925a6f5-1fe7-4b52-80e2-dcc8ca5fad24")
+	)
 	(label "USB_D+"
 		(at 121.92 91.44 180)
 		(effects
@@ -5851,6 +6463,36 @@
 		)
 		(uuid "4bb8472b-5484-48f8-9747-76e80c53a280")
 	)
+	(label "IN-ToF2"
+		(at 276.86 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d3e48e7-38cb-4861-bb0b-0e3223eabfdb")
+	)
+	(label "PWMA2"
+		(at 349.25 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "523c3a9f-efe7-4da2-8402-10992e33657f")
+	)
+	(label "Motor_Fault"
+		(at 278.13 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5242eaab-a9c0-4d95-b633-dca5051fb184")
+	)
 	(label "BOOT"
 		(at 280.67 148.59 180)
 		(effects
@@ -5860,6 +6502,46 @@
 			(justify right bottom)
 		)
 		(uuid "539e9cda-769a-4d24-ba52-573887bbba50")
+	)
+	(label "IN-ToF4"
+		(at 276.86 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56e832a8-230c-46d7-98e5-d5cce9de4af1")
+	)
+	(label "PWMB2"
+		(at 349.25 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e468621-bfa8-485a-a728-56b545cb705d")
+	)
+	(label "IN-ToF1"
+		(at 276.86 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64ddbff8-fd89-4b91-9dfc-ec674d79410c")
+	)
+	(label "PWMA2"
+		(at 278.13 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76dbd8d4-43c8-45d0-bad0-01e4699fb9ed")
 	)
 	(label "USB_D+"
 		(at 280.67 140.97 180)
@@ -5891,6 +6573,46 @@
 		)
 		(uuid "89d042a0-aa0a-4407-987d-09030c6077e2")
 	)
+	(label "PWMB1"
+		(at 349.25 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8af48f43-186f-41e8-bada-ed31b6c8d18e")
+	)
+	(label "IN-ToF1"
+		(at 276.86 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "952e0ee9-5d73-49bb-b72a-c27be2c0c3f1")
+	)
+	(label "IN-ToF3"
+		(at 276.86 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aec0bdba-4004-4f70-bc73-56431f3af52d")
+	)
+	(label "PWMB1"
+		(at 276.86 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af43e883-bf73-4e15-9a93-342cf606c605")
+	)
 	(label "RST"
 		(at 157.48 133.35 0)
 		(effects
@@ -5901,15 +6623,15 @@
 		)
 		(uuid "bb36c47d-280a-48d0-b292-700e51ce4e43")
 	)
-	(label "SERVO_PWM"
-		(at 284.48 153.67 180)
+	(label "IN-ToF2"
+		(at 276.86 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "c38895d2-5e13-468a-9a7d-bcdea5469996")
+		(uuid "c5fa851e-250c-43df-bd74-a32bfdaaf488")
 	)
 	(label "BOOT"
 		(at 189.23 46.99 0)
@@ -5920,6 +6642,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca3e4402-8d5e-431f-8b4c-008578510b12")
+	)
+	(label "PWMB2"
+		(at 276.86 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc009640-7504-450d-a72d-06e828def5c2")
 	)
 	(label "USB_D-"
 		(at 280.67 143.51 180)
@@ -5950,6 +6682,16 @@
 			(justify left bottom)
 		)
 		(uuid "e278b375-dd1d-4556-bacf-29db523c5abc")
+	)
+	(label "IN-ToF3"
+		(at 276.86 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5e01fc6-3085-44c1-a7ec-cbe1fe4d460f")
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0805")
@@ -6145,7 +6887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "118a9c87-23a3-475b-aa96-4f5de948d507")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 217.17 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6205,7 +6947,85 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR017")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 347.98 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11bbdd32-6b2a-4ec8-84a2-5cd020dcd963")
+		(property "Reference" "#PWR024"
+			(at 347.98 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 347.98 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 347.98 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c60038a-791d-42c8-9e0a-17879d54bcf1")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6223,7 +7043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14c3a854-3208-4389-93ff-13e603401eae")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 125.73 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6283,7 +7103,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6380,7 +7200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "285eef9a-8bdf-4d96-b0cb-d5b502242a34")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 40.64 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6440,7 +7260,86 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR05")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 29.21 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2becf6b8-2343-438d-90e3-d2a157751589")
+		(property "Reference" "#PWR035"
+			(at 29.21 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 29.21 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.12 1.12)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 29.21 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36d05dd9-914a-47a8-9435-0da44b577461")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6538,6 +7437,118 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:B2B-XH-A")
+		(at 403.86 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b612461-8954-41c5-b14c-ebab53aaee27")
+		(property "Reference" "CN3"
+			(at 402.59 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B-XH-A"
+			(at 402.59 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-TH_B2B-XH-A-LF-SN"
+			(at 403.86 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/XH-Connectors_JST_B2B-XH-A-LF-SN_XHsocket-1-2P-pitch2-5mm_C158012.html"
+			(at 403.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 403.86 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 403.86 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C158012"
+			(at 403.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e948ff9c-861d-4e22-b499-712829e46007")
+		)
+		(pin "2"
+			(uuid "a068af15-163c-4ee4-ae4e-2684b6b9cdbb")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 118.11 0)
 		(unit 1)
@@ -6549,7 +7560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40bc0fea-478e-4db1-9f9e-b02f316145f3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 217.17 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6609,7 +7620,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6703,6 +7714,84 @@
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 354.33 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41fbd6fe-18d9-411b-9ecd-4fa118e1aa58")
+		(property "Reference" "#PWR036"
+			(at 354.33 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 354.33 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.12 1.12)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 354.33 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c967ff0-d2c0-43f6-a30a-f16c3b9ad059")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6834,7 +7923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44075a85-d956-4a2c-9ff5-8ec75cc91399")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 48.26 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6894,7 +7983,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7291,122 +8380,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:XL-1608SURC-06")
-		(at 177.8 49.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "579cae6f-6d7d-4345-9425-70cbb19b5aac")
-		(property "Reference" "LED2"
-			(at 181.61 49.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "XL-1608SURC-06"
-			(at 181.61 51.5599 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.12 1.12)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:LED0603-RD_RED"
-			(at 186.69 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965799.pdf"
-			(at 189.23 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 191.77 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XL-1608SURC-06"
-			(at 194.31 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965799"
-			(at 196.85 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4c5bab96-9f51-4596-9446-56ad88253f92")
-		)
-		(pin "1"
-			(uuid "8549248b-1114-42ff-87a1-d86cfc80313a")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 223.52 60.96 0)
 		(unit 1)
@@ -7418,7 +8391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a37f7b-1baa-44fc-9e82-312e57d6f95b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 223.52 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7478,7 +8451,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7725,6 +8698,118 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:B2B-XH-A")
+		(at 403.86 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5cf8e289-75be-4840-88f6-16a78aa15a3a")
+		(property "Reference" "CN4"
+			(at 402.59 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B-XH-A"
+			(at 402.59 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-TH_B2B-XH-A-LF-SN"
+			(at 403.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/XH-Connectors_JST_B2B-XH-A-LF-SN_XHsocket-1-2P-pitch2-5mm_C158012.html"
+			(at 403.86 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 403.86 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 403.86 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C158012"
+			(at 403.86 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f34db4f8-646b-44c0-be5d-a50ac0cccaac")
+		)
+		(pin "2"
+			(uuid "a0b25a76-e515-4281-84e4-181db3d93d2a")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
 		(at 125.73 48.26 0)
 		(mirror y)
@@ -7829,7 +8914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6341093a-aebe-446b-b371-66e9f4404ad6")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR04"
 			(at 36.83 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7889,7 +8974,95 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR043")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 368.3 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63c3e748-4083-4762-a654-438ef9630d01")
+		(property "Reference" "J1"
+			(at 369.57 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 369.57 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-TH_B4B-PH-K-S"
+			(at 368.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 368.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "8f272755-7cff-413e-9477-8c0afa680e40")
+		)
+		(pin "1"
+			(uuid "a0667788-5c49-45cb-8cd4-0f1a0b12eef6")
+		)
+		(pin "2"
+			(uuid "2d849880-5594-47d4-b106-de2f1c95da90")
+		)
+		(pin "3"
+			(uuid "836ed6bb-6839-4446-b4c7-775b8b9a1c18")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7907,7 +9080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6512d95e-b375-4a4a-80fe-11d22a4f6421")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 154.94 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7967,7 +9140,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8078,7 +9251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67f27693-6bdc-4c67-ad19-87a6f25523eb")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 88.9 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8138,7 +9311,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8330,84 +9503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 179.07 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "766727e9-b094-4baa-8ced-f65d14fd90ce")
-		(property "Reference" "#PWR014"
-			(at 179.07 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 179.07 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.12 1.12)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 179.07 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "843f70d5-2c80-4eb3-a745-ed2cd2716122")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:ESD5Z3.3T")
 		(at 208.28 58.42 180)
 		(unit 1)
@@ -8509,7 +9604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cfc47e8-475f-4799-aca2-0ab8e4f2ce1c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 63.5 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8569,7 +9664,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8953,84 +10048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 29.21 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e372a0d-7e10-4990-a0a7-70c57d32a231")
-		(property "Reference" "#PWR02"
-			(at 29.21 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 29.21 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "54f9ac62-8f74-4dc8-a118-4953858c3062")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0805")
 		(at 138.43 48.26 0)
 		(unit 1)
@@ -9212,7 +10229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92d85634-dc8f-4f36-9fef-c4d82e04c56a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 154.94 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9272,7 +10289,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9365,84 +10382,6 @@
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 355.6 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99b8f315-2750-4ef3-9fd7-117851ffd7b1")
-		(property "Reference" "#PWR039"
-			(at 355.6 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 355.6 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 355.6 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 355.6 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24683e47-77fd-4f84-a15f-6e47efc5fa9a")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9735,7 +10674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a936a7bc-6983-4a83-ba3f-c732900e8a4b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 105.41 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9795,7 +10734,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9813,7 +10752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaaeecda-7727-440a-9ac9-3b9c090b83f4")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 237.49 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9873,7 +10812,85 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR021")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 354.33 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac723f09-b441-45cb-a869-3f55a4bde87e")
+		(property "Reference" "#PWR015"
+			(at 354.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 354.33 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 354.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "627dc7d1-9461-47f7-a5be-c5fbb0533619")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10182,6 +11199,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 368.3 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c43896c4-eb2a-46bc-85f7-b83fe52030b8")
+		(property "Reference" "J2"
+			(at 369.57 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 369.57 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-TH_B4B-PH-K-S"
+			(at 368.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 368.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e770ad42-b406-4e28-8f39-1cab5f7d3d60")
+		)
+		(pin "1"
+			(uuid "07d99bf0-e997-4c1f-9b4b-ab652db3f3bb")
+		)
+		(pin "2"
+			(uuid "2460367f-ab9c-4e1e-a30a-91b4ed98f3db")
+		)
+		(pin "3"
+			(uuid "6502c149-6cf5-4d7b-822c-6f331626371b")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+7.5V")
 		(at 125.73 30.48 0)
 		(mirror y)
@@ -10194,7 +11299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c604f520-1d36-4795-b516-b726cafec99e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 125.73 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10254,7 +11359,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10348,7 +11453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf4a7e2c-5410-4cb2-a229-8baa2ad3416a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 199.39 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10408,7 +11513,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10427,7 +11532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d92d7131-cab6-4c5d-9ee7-f909335669ab")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 40.64 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10487,7 +11592,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10505,7 +11610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da3c72ea-07b4-462f-b9bb-6b192e1054fc")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 261.62 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10565,85 +11670,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 355.6 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6bf76e7-3a92-4f9a-9969-6b1a71564cc9")
-		(property "Reference" "#PWR041"
-			(at 355.6 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 355.6 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 355.6 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 355.6 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff8e5ee0-2d0f-4507-b7ff-9bdd2835cf49")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR041")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10744,177 +11771,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 59.69 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f83b462f-5a2d-46da-aed4-ab5b6475c05c")
-		(property "Reference" "#PWR015"
-			(at 179.07 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 64.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.12 1.12)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3238e445-6d86-41eb-9bd3-53a88567b90a")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 179.07 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f87415cc-97b6-452c-9bb2-a3a06e49b7ea")
-		(property "Reference" "R8"
-			(at 181.61 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 181.61 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.12 1.12)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 179.07 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 179.07 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C860067"
-			(at 179.07 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ce38478a-d16a-476a-9c84-4e4ae723ef00")
-		)
-		(pin "1"
-			(uuid "b10c4a19-d2ea-413a-a273-c4dafd3f5bb8")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 222.25 214.63 0)
 		(unit 1)
 		(body_style 1)
@@ -10925,7 +11781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb8ea83a-7f8e-49c7-a43f-6e07cf908a64")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 222.25 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -10985,7 +11841,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11199,8 +12055,8 @@
 		)
 	)
 	(sheet
-		(at 363.22 139.7)
-		(size 43.18 22.86)
+		(at 356.87 156.21)
+		(size 25.4 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11213,9 +12069,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "33c50dff-064e-4b21-bc1d-153069a8ab5f")
-		(property "Sheetname" "PH3A_Driver"
-			(at 363.22 138.9884 0)
+		(uuid "7af026f4-cd24-461f-ad82-ec197bdc255a")
+		(property "Sheetname" "DRV8411APWR"
+			(at 356.87 155.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11225,8 +12081,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../PHE-3A/PHE-3A/PHE-3A.kicad_sch"
-			(at 363.22 163.1446 0)
+		(property "Sheetfile" "DRV8411APWR.kicad_sch"
+			(at 356.87 189.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11236,9 +12092,9 @@
 				(justify left top)
 			)
 		)
-		(pin "IN1" input
-			(at 363.22 146.05 180)
-			(uuid "240a40f7-7e19-486e-9924-e244aba1ede0")
+		(pin "A-IN1" input
+			(at 356.87 163.83 180)
+			(uuid "0fd606b2-2998-4e27-9113-38fc5b45f5a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,9 +12102,9 @@
 				(justify left)
 			)
 		)
-		(pin "Vref" input
-			(at 363.22 142.24 180)
-			(uuid "1c57c230-5e46-4a29-bf0d-0ed1c35b61d5")
+		(pin "A-IN2" input
+			(at 356.87 166.37 180)
+			(uuid "0a66c91e-cbb0-42e5-b1d4-a85fc803bac9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11256,9 +12112,79 @@
 				(justify left)
 			)
 		)
-		(pin "IN2" input
-			(at 363.22 149.86 180)
-			(uuid "5c8256f1-ca22-4682-a006-1cc79adc37ef")
+		(pin "B-IN1" input
+			(at 356.87 168.91 180)
+			(uuid "83df6d90-c8f6-46cc-a357-ad8548ec27c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B-IN2" input
+			(at 356.87 171.45 180)
+			(uuid "09e2ac0b-a2c2-4b80-8ee3-5d0b08424302")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Fault" input
+			(at 356.87 173.99 180)
+			(uuid "cc038eda-be23-4b9d-8494-f3cd177b970a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1A" output
+			(at 382.27 162.56 0)
+			(uuid "86043dcb-3d70-4598-b844-b2198314bf98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M1B" output
+			(at 382.27 165.1 0)
+			(uuid "615e34b9-1d4c-4b87-b7af-3853c5c1db77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2A" output
+			(at 382.27 172.72 0)
+			(uuid "9faf12ee-7cb0-4029-9726-5a4a37702e10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2B" output
+			(at 382.27 175.26 0)
+			(uuid "ebe52cc8-2542-4de6-98a7-bcf2f848bdb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin" input
+			(at 356.87 160.02 180)
+			(uuid "70a06cb6-4d8e-4194-804a-205d437dddce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,82 +12196,6 @@
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 363.22 168.91)
-		(size 43.18 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "797d71cd-243e-4e1f-a48d-17e3a4183308")
-		(property "Sheetname" "PH3A_Driver1"
-			(at 363.22 168.1984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../../PHE-3A/PHE-3A/PHE-3A.kicad_sch"
-			(at 363.22 192.3546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN1" input
-			(at 363.22 175.26 180)
-			(uuid "c99d4111-0481-4be3-81ab-8acf96c04140")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vref" input
-			(at 363.22 171.45 180)
-			(uuid "b42c766b-a431-4740-b672-4c4432499625")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IN2" input
-			(at 363.22 179.07 180)
-			(uuid "aa13427a-a817-4a2d-8ef8-11cbef39d22d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(page "4")
 				)
 			)
 		)
