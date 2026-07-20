@@ -5,263 +5,6 @@
 	(uuid "b3437995-bb94-4c2f-9ed8-b1af477fe956")
 	(paper "USLedger")
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:CONN-TH_B4B-PH-K-S"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:B0540W_C7420325"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -599,6 +342,207 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:DB125-3.5-4P-GN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DB125-3.5-4P-GN"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:CONN-TH_DB125-3.5-4P-GN"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2757925.pdf"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "DORABO(地博电气)"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "DB125-3.5-4P-GN-S"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2757925"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DB125-3.5-4P-GN_0_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4744,16 +4688,16 @@
 		(uuid "f3e08378-528c-4054-84f7-93136c1ffb15")
 	)
 	(junction
+		(at 322.58 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "050b23b6-0502-44ee-858a-cc05a45baa03")
+	)
+	(junction
 		(at 199.39 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0541246d-186e-4e8d-9a30-a6787075fd5a")
-	)
-	(junction
-		(at 354.33 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07808ef2-168d-4223-806e-e68d3ce1b4c8")
 	)
 	(junction
 		(at 67.31 91.44)
@@ -4768,16 +4712,16 @@
 		(uuid "26cae42a-cdad-4d51-90d3-a4883d08f2d3")
 	)
 	(junction
+		(at 322.58 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2790f59c-4c94-4771-9aaa-bb1f8998c3cc")
+	)
+	(junction
 		(at 217.17 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "330ad5f7-ce96-4b78-a3a9-9d74d5bfdd2c")
-	)
-	(junction
-		(at 354.33 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33f93d33-6f7b-417b-8052-0d381af58975")
 	)
 	(junction
 		(at 63.5 123.19)
@@ -4792,12 +4736,6 @@
 		(uuid "4add2cfd-bc3f-45ab-95b3-5e500c16a893")
 	)
 	(junction
-		(at 354.33 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e986bf2-f69c-466b-bc72-f6025dfe6ec3")
-	)
-	(junction
 		(at 223.52 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4810,16 +4748,10 @@
 		(uuid "64095cd2-6048-491d-951f-87bc4b1d8ca5")
 	)
 	(junction
-		(at 354.33 121.92)
+		(at 320.04 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6dc896c8-37d6-4f1e-b411-940950bb8728")
-	)
-	(junction
-		(at 354.33 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f831524-d6b9-4343-9414-b6f5f53408ef")
+		(uuid "71cc01dd-ec38-451a-a72c-9f95937f2764")
 	)
 	(junction
 		(at 199.39 52.07)
@@ -4858,6 +4790,12 @@
 		(uuid "a9d01961-7c33-4bc0-bbd9-7da821ec0435")
 	)
 	(junction
+		(at 322.58 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9ec7976-b4d4-4c55-bd86-eca9dc83068d")
+	)
+	(junction
 		(at 29.21 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4868,12 +4806,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b53cefd9-6700-45cb-afdc-2f362e57fc1e")
-	)
-	(junction
-		(at 354.33 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c60d58ff-e415-4806-8674-001df17d4c2b")
 	)
 	(junction
 		(at 105.41 115.57)
@@ -4906,10 +4838,22 @@
 		(uuid "e00fdc81-6232-4320-bddd-b10df5492da3")
 	)
 	(junction
+		(at 320.04 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e17a51d4-6807-459b-aa77-7b44d4af9f99")
+	)
+	(junction
 		(at 113.03 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3f05596-ce7c-48d2-807d-ea6231e9263c")
+	)
+	(junction
+		(at 320.04 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e453d146-ee61-45f6-a6ab-e103a1dfcd44")
 	)
 	(junction
 		(at 113.03 43.18)
@@ -4945,13 +4889,23 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 111.76) (xy 363.22 111.76)
+			(xy 330.2 106.68) (xy 320.04 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0332f47d-99cf-43eb-934f-17db559ce2cf")
+		(uuid "0110b3af-58e3-4cee-ac66-cf0029237c4a")
+	)
+	(wire
+		(pts
+			(xy 320.04 104.14) (xy 320.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094f8e2c-6426-4325-ae77-810b1e50d360")
 	)
 	(wire
 		(pts
@@ -5115,16 +5069,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 119.38) (xy 354.33 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "288dd665-cbe5-43d3-856c-d9b64f7412f7")
-	)
-	(wire
-		(pts
 			(xy 267.97 148.59) (xy 280.67 148.59)
 		)
 		(stroke
@@ -5162,16 +5106,6 @@
 			(type default)
 		)
 		(uuid "30760795-fd68-49d4-abad-3b4cbf39b342")
-	)
-	(wire
-		(pts
-			(xy 363.22 116.84) (xy 354.33 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "313ee16e-b6c4-4976-a6f8-740557004c62")
 	)
 	(wire
 		(pts
@@ -5275,6 +5209,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 95.25) (xy 320.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43eb689a-a220-454f-b5c8-c1f60f5408cb")
+	)
+	(wire
+		(pts
 			(xy 67.31 91.44) (xy 67.31 93.98)
 		)
 		(stroke
@@ -5305,16 +5249,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 121.92) (xy 354.33 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f747245-6796-46d7-bea4-4ddbee06d418")
-	)
-	(wire
-		(pts
 			(xy 125.73 43.18) (xy 113.03 43.18)
 		)
 		(stroke
@@ -5322,6 +5256,16 @@
 			(type default)
 		)
 		(uuid "51e47588-45b0-4778-aa30-bfa8e22848b5")
+	)
+	(wire
+		(pts
+			(xy 330.2 118.11) (xy 322.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52764d7d-e1f7-43a8-9ac6-1341114c44b7")
 	)
 	(wire
 		(pts
@@ -5485,16 +5429,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 114.3) (xy 363.22 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6953b7ee-fe27-4879-a30a-753a9ac19339")
-	)
-	(wire
-		(pts
 			(xy 113.03 43.18) (xy 113.03 44.45)
 		)
 		(stroke
@@ -5505,13 +5439,13 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 106.68) (xy 354.33 106.68)
+			(xy 322.58 120.65) (xy 322.58 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7075b5ff-cfff-4567-a88e-0c44219fb7c3")
+		(uuid "6dbfa6a0-1bb1-4c47-8b17-a08ec62100b5")
 	)
 	(wire
 		(pts
@@ -5585,16 +5519,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 104.14) (xy 354.33 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bbdd18b-70a5-463d-940e-96b315abbb24")
-	)
-	(wire
-		(pts
 			(xy 125.73 43.18) (xy 138.43 43.18)
 		)
 		(stroke
@@ -5642,16 +5566,6 @@
 			(type default)
 		)
 		(uuid "7ff73cf0-1a07-4069-9d64-cdaa581dd757")
-	)
-	(wire
-		(pts
-			(xy 354.33 106.68) (xy 354.33 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "801e4367-204e-471c-9e89-c2c93a9cb21b")
 	)
 	(wire
 		(pts
@@ -5715,26 +5629,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 116.84) (xy 354.33 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "885d6270-ca08-43e9-b3c1-bebb487270fa")
-	)
-	(wire
-		(pts
-			(xy 354.33 109.22) (xy 354.33 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8974adbb-dd46-45ee-a2bf-84c0452c7b0c")
-	)
-	(wire
-		(pts
 			(xy 22.86 92.71) (xy 22.86 91.44)
 		)
 		(stroke
@@ -5742,6 +5636,16 @@
 			(type default)
 		)
 		(uuid "8a110039-e229-48d9-8b01-efa61a776d73")
+	)
+	(wire
+		(pts
+			(xy 322.58 118.11) (xy 322.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a813b60-d645-4af6-8c4a-ca7403b94686")
 	)
 	(wire
 		(pts
@@ -5855,6 +5759,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 106.68) (xy 320.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01aa6d7-cb3a-43ef-9cce-1e8a8ee26846")
+	)
+	(wire
+		(pts
 			(xy 267.97 140.97) (xy 280.67 140.97)
 		)
 		(stroke
@@ -5902,6 +5816,16 @@
 			(type default)
 		)
 		(uuid "a30fde67-9ba3-4a33-af24-058623721e49")
+	)
+	(wire
+		(pts
+			(xy 320.04 111.76) (xy 330.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a653c872-be2c-4b1a-ba3d-701113214f2c")
 	)
 	(wire
 		(pts
@@ -5975,16 +5899,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 100.33) (xy 354.33 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0129d8b-6507-40fc-8393-b1f1f00a7b08")
-	)
-	(wire
-		(pts
 			(xy 48.26 39.37) (xy 52.07 39.37)
 		)
 		(stroke
@@ -5992,6 +5906,16 @@
 			(type default)
 		)
 		(uuid "b16362f8-28a2-4bbf-a38c-ba2b858fbab4")
+	)
+	(wire
+		(pts
+			(xy 330.2 120.65) (xy 322.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b26b50-c050-4d19-b779-663367351df6")
 	)
 	(wire
 		(pts
@@ -6055,13 +5979,13 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 121.92) (xy 354.33 121.92)
+			(xy 330.2 104.14) (xy 320.04 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb31f84b-fb27-4fb1-998f-3ac882a27f7e")
+		(uuid "bef80d51-2e08-4c6d-99b9-8a844bbeafd1")
 	)
 	(wire
 		(pts
@@ -6072,16 +5996,6 @@
 			(type default)
 		)
 		(uuid "bf48827a-3505-47b4-9a14-db6271e0c162")
-	)
-	(wire
-		(pts
-			(xy 354.33 127) (xy 354.33 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1d60e6d-f270-4b3c-aa3f-1fa7c72b606e")
 	)
 	(wire
 		(pts
@@ -6105,6 +6019,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 123.19) (xy 322.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c877fc0c-b1ab-41cd-8278-c523b940a176")
+	)
+	(wire
+		(pts
 			(xy 217.17 110.49) (xy 217.17 118.11)
 		)
 		(stroke
@@ -6122,16 +6046,6 @@
 			(type default)
 		)
 		(uuid "d025c0fc-50a8-4991-80ea-1b8a354cb8d0")
-	)
-	(wire
-		(pts
-			(xy 363.22 109.22) (xy 354.33 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0d33053-0ac7-4805-909f-9e070186818f")
 	)
 	(wire
 		(pts
@@ -6155,13 +6069,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 104.14) (xy 354.33 106.68)
+			(xy 330.2 109.22) (xy 320.04 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5ee8520-715a-4749-8095-67c7970ded40")
+		(uuid "d68cb46c-7c30-4e97-8cf1-b81a4d4411d6")
 	)
 	(wire
 		(pts
@@ -6192,6 +6106,16 @@
 			(type default)
 		)
 		(uuid "daf9d57b-e849-4e0b-be7f-b5aa5f12bdee")
+	)
+	(wire
+		(pts
+			(xy 330.2 125.73) (xy 322.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2ad5d6-25d1-4d90-b432-96ae57cf92be")
 	)
 	(wire
 		(pts
@@ -6295,6 +6219,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 125.73) (xy 322.58 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4dcb86-b714-4f1f-959d-86cf6d3faa04")
+	)
+	(wire
+		(pts
 			(xy 228.6 46.99) (xy 237.49 46.99)
 		)
 		(stroke
@@ -6345,6 +6279,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 123.19) (xy 322.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8836c11-ee66-4765-bdbd-d74bd6d9d18d")
+	)
+	(wire
+		(pts
 			(xy 113.03 53.34) (xy 113.03 52.07)
 		)
 		(stroke
@@ -6385,13 +6329,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 119.38) (xy 354.33 116.84)
+			(xy 320.04 109.22) (xy 320.04 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fee5c861-1508-4e83-9060-159e5f6d983f")
+		(uuid "fdf49a6a-11c5-493e-9bf4-f2b92dbb58d8")
 	)
 	(label "IN-ToF4"
 		(at 276.86 194.31 0)
@@ -7437,6 +7381,127 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:DB125-3.5-4P-GN")
+		(at 334.01 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c9650a-0e1f-41c6-90ee-827a78a0d5b4")
+		(property "Reference" "U4"
+			(at 339.09 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB125-3.5-4P-GN"
+			(at 339.09 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-TH_DB125-3.5-4P-GN"
+			(at 334.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2757925.pdf"
+			(at 334.01 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "DORABO(地博电气)"
+			(at 334.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DB125-3.5-4P-GN-S"
+			(at 334.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2757925"
+			(at 334.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d789eec-13c4-49b3-b0cd-12781d35a4fb")
+		)
+		(pin "2"
+			(uuid "11dd50a2-666f-49ed-b6af-f8173fc06d9b")
+		)
+		(pin "3"
+			(uuid "0bbb74cb-0d41-4732-bcc5-a1d4ffc1d64b")
+		)
+		(pin "4"
+			(uuid "c0eea6f5-f09c-48c3-85a2-d831d1ca438b")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:B2B-XH-A")
 		(at 403.86 163.83 0)
 		(unit 1)
@@ -7714,84 +7779,6 @@
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 354.33 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41fbd6fe-18d9-411b-9ecd-4fa118e1aa58")
-		(property "Reference" "#PWR036"
-			(at 354.33 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 354.33 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.12 1.12)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 354.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 354.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 354.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c967ff0-d2c0-43f6-a30a-f16c3b9ad059")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8281,6 +8268,84 @@
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 320.04 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4afc75ee-4b86-4ad5-b42d-c24a60802c97")
+		(property "Reference" "#PWR015"
+			(at 320.04 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 320.04 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 320.04 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fc6fc85-d2ae-4ed8-a0fe-bbcef0d72649")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8810,6 +8875,127 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:DB125-3.5-4P-GN")
+		(at 334.01 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6075c613-0fa8-4476-9033-cb4473191d98")
+		(property "Reference" "U5"
+			(at 339.09 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB125-3.5-4P-GN"
+			(at 339.09 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-TH_DB125-3.5-4P-GN"
+			(at 334.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2757925.pdf"
+			(at 334.01 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "DORABO(地博电气)"
+			(at 334.01 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DB125-3.5-4P-GN-S"
+			(at 334.01 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2757925"
+			(at 334.01 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a755089b-b0c2-484a-9127-87e004627f31")
+		)
+		(pin "2"
+			(uuid "b16550fb-3560-489f-9afb-fa6b7e09ac0d")
+		)
+		(pin "3"
+			(uuid "a2e57afe-345b-482f-bff0-4eed6b338dd3")
+		)
+		(pin "4"
+			(uuid "9745c366-68bd-4281-9f7d-d63d0839d44f")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
 		(at 125.73 48.26 0)
 		(mirror y)
@@ -8975,94 +9161,6 @@
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 368.3 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63c3e748-4083-4762-a654-438ef9630d01")
-		(property "Reference" "J1"
-			(at 369.57 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 369.57 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:CONN-TH_B4B-PH-K-S"
-			(at 368.3 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 368.3 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "8f272755-7cff-413e-9477-8c0afa680e40")
-		)
-		(pin "1"
-			(uuid "a0667788-5c49-45cb-8cd4-0f1a0b12eef6")
-		)
-		(pin "2"
-			(uuid "2d849880-5594-47d4-b106-de2f1c95da90")
-		)
-		(pin "3"
-			(uuid "836ed6bb-6839-4446-b4c7-775b8b9a1c18")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10819,84 +10917,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 354.33 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac723f09-b441-45cb-a869-3f55a4bde87e")
-		(property "Reference" "#PWR015"
-			(at 354.33 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 354.33 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 354.33 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 354.33 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 354.33 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "627dc7d1-9461-47f7-a5be-c5fbb0533619")
-		)
-		(instances
-			(project "ZumoRobot"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:TS-1088-AR02016")
 		(at 246.38 45.72 0)
 		(unit 1)
@@ -11199,8 +11219,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 368.3 116.84 0)
+		(lib_id "power:GND")
+		(at 322.58 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11209,31 +11229,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c43896c4-eb2a-46bc-85f7-b83fe52030b8")
-		(property "Reference" "J2"
-			(at 369.57 116.8399 0)
+		(uuid "c401f065-3785-4f1b-9130-31aebbf2885d")
+		(property "Reference" "#PWR036"
+			(at 322.58 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 369.57 119.3799 0)
+		(property "Value" "GND"
+			(at 322.58 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.12 1.12)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_B4B-PH-K-S"
-			(at 368.3 116.84 0)
+		(property "Footprint" ""
+			(at 322.58 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11244,7 +11263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 116.84 0)
+			(at 322.58 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11254,8 +11273,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 368.3 116.84 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11264,23 +11283,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "e770ad42-b406-4e28-8f39-1cab5f7d3d60")
 		)
 		(pin "1"
-			(uuid "07d99bf0-e997-4c1f-9b4b-ab652db3f3bb")
-		)
-		(pin "2"
-			(uuid "2460367f-ab9c-4e1e-a30a-91b4ed98f3db")
-		)
-		(pin "3"
-			(uuid "6502c149-6cf5-4d7b-822c-6f331626371b")
+			(uuid "8940bd2c-57d8-4e39-8a17-14ed6e732818")
 		)
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "J2")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
