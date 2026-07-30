@@ -2698,6 +2698,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C122538"
+			(at 135.89 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39408f20-fa85-4f3c-9b4a-be3e1b4319fb")
 		)
