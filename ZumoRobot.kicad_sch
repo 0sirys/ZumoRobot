@@ -2306,6 +2306,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_4ms_Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Capacitor_US_AKL:C_0603"
 			(body_styles demorgan)
 			(pin_numbers
@@ -3753,6 +3876,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TestPoint_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_1_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -4760,6 +5005,12 @@
 		(uuid "75178a5d-d396-41aa-9862-03e7a0cc7357")
 	)
 	(junction
+		(at 287.02 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f36f035-208f-4e7a-9a39-77aa2862ad8c")
+	)
+	(junction
 		(at 223.52 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4899,6 +5150,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 173.99) (xy 283.21 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031236c1-14d2-4523-a91a-5703a7e3c7c1")
+	)
+	(wire
+		(pts
 			(xy 320.04 104.14) (xy 320.04 106.68)
 		)
 		(stroke
@@ -4946,6 +5207,16 @@
 			(type default)
 		)
 		(uuid "0f91a69e-f1ca-4618-b639-24aff79ca87d")
+	)
+	(wire
+		(pts
+			(xy 267.97 194.31) (xy 284.48 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11dd7815-ff43-4634-9255-30558f99b3d8")
 	)
 	(wire
 		(pts
@@ -5009,6 +5280,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 214.63) (xy 322.58 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db616b9-6a33-4404-acc8-e7c5aa1bec1f")
+	)
+	(wire
+		(pts
 			(xy 125.73 30.48) (xy 125.73 33.02)
 		)
 		(stroke
@@ -5016,16 +5297,6 @@
 			(type default)
 		)
 		(uuid "1dd0c609-31f7-40b2-a7f0-33e4176b048a")
-	)
-	(wire
-		(pts
-			(xy 267.97 176.53) (xy 276.86 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fee538a-19b8-41f9-895e-100f56811dd6")
 	)
 	(wire
 		(pts
@@ -5069,6 +5340,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 213.36) (xy 337.82 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a6f2e4-4e56-4100-a5d4-30de53e24aa5")
+	)
+	(wire
+		(pts
 			(xy 267.97 148.59) (xy 280.67 148.59)
 		)
 		(stroke
@@ -5109,6 +5390,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 165.1) (xy 287.02 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d7b9c1-512f-4f74-9f22-424adeefe15a")
+	)
+	(wire
+		(pts
 			(xy 125.73 40.64) (xy 125.73 43.18)
 		)
 		(stroke
@@ -5126,16 +5417,6 @@
 			(type default)
 		)
 		(uuid "3343c9a1-f494-4dd8-ab68-79b5c9b5b71d")
-	)
-	(wire
-		(pts
-			(xy 278.13 199.39) (xy 267.97 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3637eef7-1d5a-45b2-84e8-01bda8502124")
 	)
 	(wire
 		(pts
@@ -5196,6 +5477,16 @@
 			(type default)
 		)
 		(uuid "40cb78d2-cbf5-43e6-9151-5b1f824a0fd1")
+	)
+	(wire
+		(pts
+			(xy 322.58 200.66) (xy 322.58 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4140b4bc-f536-4765-a0ff-62cbb8ee3dca")
 	)
 	(wire
 		(pts
@@ -5309,16 +5600,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 179.07) (xy 276.86 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5817a836-f15c-49c5-873b-63448ae5e473")
-	)
-	(wire
-		(pts
 			(xy 88.9 106.68) (xy 88.9 109.22)
 		)
 		(stroke
@@ -5349,7 +5630,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 181.61) (xy 276.86 181.61)
+			(xy 267.97 181.61) (xy 284.48 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5429,6 +5710,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 179.07) (xy 283.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b38ae6a-5fc1-4d10-b182-2c591b448e5f")
+	)
+	(wire
+		(pts
 			(xy 113.03 43.18) (xy 113.03 44.45)
 		)
 		(stroke
@@ -5446,6 +5737,16 @@
 			(type default)
 		)
 		(uuid "6dbfa6a0-1bb1-4c47-8b17-a08ec62100b5")
+	)
+	(wire
+		(pts
+			(xy 293.37 165.1) (xy 293.37 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e126187-4e7a-4ccc-91b5-925a229b6f66")
 	)
 	(wire
 		(pts
@@ -5469,13 +5770,13 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 161.29) (xy 267.97 161.29)
+			(xy 267.97 196.85) (xy 284.48 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "740d91a6-144c-4c75-b8a1-357d0f5ad9c6")
+		(uuid "749e5071-e4cd-4f4a-9b80-56d131d33f5b")
 	)
 	(wire
 		(pts
@@ -5526,16 +5827,6 @@
 			(type default)
 		)
 		(uuid "7cf887ff-0a3f-4310-bb97-355b67def330")
-	)
-	(wire
-		(pts
-			(xy 278.13 158.75) (xy 267.97 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e38fff9-c45a-4fd7-876c-ae83b0354d1e")
 	)
 	(wire
 		(pts
@@ -5599,6 +5890,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 191.77) (xy 284.48 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d73521-c256-406e-b642-307cd115dd99")
+	)
+	(wire
+		(pts
 			(xy 125.73 52.07) (xy 125.73 53.34)
 		)
 		(stroke
@@ -5649,6 +5950,26 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 201.93) (xy 279.4 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b11e20e-ae74-4ee6-8665-1da0ac9d6f36")
+	)
+	(wire
+		(pts
+			(xy 267.97 186.69) (xy 284.48 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba4e684-b07e-42a6-a52f-340b7d8e40ce")
+	)
+	(wire
+		(pts
 			(xy 80.01 109.22) (xy 88.9 109.22)
 		)
 		(stroke
@@ -5666,6 +5987,26 @@
 			(type default)
 		)
 		(uuid "8e2fd819-2b86-46c0-86a1-4e60d969100a")
+	)
+	(wire
+		(pts
+			(xy 306.07 187.96) (xy 306.07 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f21c0e0-e50b-44db-9d01-aa272c679a69")
+	)
+	(wire
+		(pts
+			(xy 307.34 214.63) (xy 306.07 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb7c41a-e6fa-472e-b4b0-930d60088fff")
 	)
 	(wire
 		(pts
@@ -5749,6 +6090,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 198.12) (xy 306.07 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba60192-be69-41bb-9b85-511d1fbb1996")
+	)
+	(wire
+		(pts
 			(xy 63.5 120.65) (xy 60.96 120.65)
 		)
 		(stroke
@@ -5756,6 +6107,16 @@
 			(type default)
 		)
 		(uuid "9e17fb56-c21a-4a4f-8ef0-c7f674a42e64")
+	)
+	(wire
+		(pts
+			(xy 267.97 173.99) (xy 276.86 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec2f91e-7db2-49ab-b549-d52058349174")
 	)
 	(wire
 		(pts
@@ -5839,6 +6200,26 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 199.39) (xy 278.13 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71262c1-5e2c-4a7d-b8a3-d6d6530f634f")
+	)
+	(wire
+		(pts
+			(xy 267.97 189.23) (xy 284.48 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f09b3d-bf67-4615-a468-fef684166b8c")
+	)
+	(wire
+		(pts
 			(xy 200.66 46.99) (xy 199.39 46.99)
 		)
 		(stroke
@@ -5849,7 +6230,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 184.15) (xy 276.86 184.15)
+			(xy 267.97 184.15) (xy 284.48 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5866,6 +6247,16 @@
 			(type default)
 		)
 		(uuid "ab58e760-b076-494f-bd0a-42a48045c0a4")
+	)
+	(wire
+		(pts
+			(xy 322.58 189.23) (xy 322.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbdac79-0c04-4866-aa27-83484e7518a1")
 	)
 	(wire
 		(pts
@@ -5929,6 +6320,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 177.8) (xy 283.21 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ee605d-9240-48b2-8f0d-f59850ee6961")
+	)
+	(wire
+		(pts
 			(xy 29.21 120.65) (xy 29.21 123.19)
 		)
 		(stroke
@@ -5956,6 +6357,16 @@
 			(type default)
 		)
 		(uuid "b890b999-2917-4816-a8a9-e1f9b9b5e4fc")
+	)
+	(wire
+		(pts
+			(xy 283.21 177.8) (xy 283.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d32078-dbde-45e8-9a4f-102f6abfd89f")
 	)
 	(wire
 		(pts
@@ -6029,6 +6440,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 200.66) (xy 322.58 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96449ad-bbcb-41f9-be0f-ae6401daa10f")
+	)
+	(wire
+		(pts
 			(xy 217.17 110.49) (xy 217.17 118.11)
 		)
 		(stroke
@@ -6036,6 +6457,16 @@
 			(type default)
 		)
 		(uuid "cca0302c-8c82-4308-8cb8-55149ace6dcc")
+	)
+	(wire
+		(pts
+			(xy 287.02 165.1) (xy 287.02 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6999be-901f-4dd4-84f4-92f793255b6d")
 	)
 	(wire
 		(pts
@@ -6059,6 +6490,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 177.8) (xy 321.31 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49a89ea-ca1b-4b34-b4d7-c554fcc97125")
+	)
+	(wire
+		(pts
 			(xy 113.03 53.34) (xy 125.73 53.34)
 		)
 		(stroke
@@ -6076,16 +6517,6 @@
 			(type default)
 		)
 		(uuid "d68cb46c-7c30-4e97-8cf1-b81a4d4411d6")
-	)
-	(wire
-		(pts
-			(xy 276.86 173.99) (xy 267.97 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9dd478e-7161-4d53-a5c5-e1fc2cd02a6c")
 	)
 	(wire
 		(pts
@@ -6116,6 +6547,26 @@
 			(type default)
 		)
 		(uuid "dc2ad5d6-25d1-4d90-b432-96ae57cf92be")
+	)
+	(wire
+		(pts
+			(xy 287.02 173.99) (xy 283.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc63552c-8811-4488-9926-a1b72ec6578b")
+	)
+	(wire
+		(pts
+			(xy 267.97 176.53) (xy 283.21 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc90c794-8170-4e86-9b63-eb3f0c8ec1fc")
 	)
 	(wire
 		(pts
@@ -6166,6 +6617,16 @@
 			(type default)
 		)
 		(uuid "e4c0c700-15c6-47f5-81db-5bc0e12af18c")
+	)
+	(wire
+		(pts
+			(xy 287.02 163.83) (xy 287.02 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f65980-9f93-441b-93ed-9240eb63bf08")
 	)
 	(wire
 		(pts
@@ -6236,6 +6697,16 @@
 			(type default)
 		)
 		(uuid "efdd68e0-77e1-4900-9144-454b0a5c40b4")
+	)
+	(wire
+		(pts
+			(xy 307.34 177.8) (xy 307.34 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f180d129-592d-42e4-b0c1-aabd6052ffd6")
 	)
 	(wire
 		(pts
@@ -6337,16 +6808,6 @@
 		)
 		(uuid "fdf49a6a-11c5-493e-9bf4-f2b92dbb58d8")
 	)
-	(label "IN-ToF4"
-		(at 276.86 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "042db7a5-f70c-48ec-a586-ab685bd55374")
-	)
 	(label "RST"
 		(at 228.6 46.99 0)
 		(effects
@@ -6356,6 +6817,16 @@
 			(justify left bottom)
 		)
 		(uuid "04871f56-3489-4332-bfbd-855eef0b1afc")
+	)
+	(label "X-SHUT 2"
+		(at 284.48 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b2d383a-3680-40de-80da-fd2e967a8463")
 	)
 	(label "PWMA1"
 		(at 278.13 156.21 0)
@@ -6377,6 +6848,16 @@
 		)
 		(uuid "16678e54-d4ff-4b92-a457-90fa2caccf92")
 	)
+	(label "IR-2"
+		(at 307.34 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1734a719-afa9-49e2-9444-814d7419ac98")
+	)
 	(label "BATTERY2_LEVEL"
 		(at 284.48 151.13 180)
 		(effects
@@ -6386,6 +6867,46 @@
 			(justify right bottom)
 		)
 		(uuid "20c1e0ae-abc3-4a6a-86b3-546163b76d8c")
+	)
+	(label "X-SHUT 2"
+		(at 322.58 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "219fff8a-c66f-4766-942b-d11f4b3eee1a")
+	)
+	(label "X-SHUT 1 "
+		(at 306.07 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29b44572-ca9a-49c0-903c-d9eaf51f9a87")
+	)
+	(label "IR-1"
+		(at 323.85 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e7ea433-59bc-45ad-a8dc-8b924b37b6cb")
+	)
+	(label "IR-2"
+		(at 284.48 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f4471a7-8e07-412e-ae06-00cfa083cfdd")
 	)
 	(label "Motor_Fault"
 		(at 349.25 173.99 180)
@@ -6397,6 +6918,26 @@
 		)
 		(uuid "3925a6f5-1fe7-4b52-80e2-dcc8ca5fad24")
 	)
+	(label "X-SHUT 3"
+		(at 306.07 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39f34978-f48f-47bc-b223-f81b90ffab71")
+	)
+	(label "IR-3"
+		(at 323.85 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4155fbe1-43f8-4833-a2fa-b568b8c4a1c1")
+	)
 	(label "USB_D+"
 		(at 121.92 91.44 180)
 		(effects
@@ -6406,16 +6947,6 @@
 			(justify right bottom)
 		)
 		(uuid "4bb8472b-5484-48f8-9747-76e80c53a280")
-	)
-	(label "IN-ToF2"
-		(at 276.86 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d3e48e7-38cb-4861-bb0b-0e3223eabfdb")
 	)
 	(label "PWMA2"
 		(at 349.25 166.37 180)
@@ -6447,15 +6978,15 @@
 		)
 		(uuid "539e9cda-769a-4d24-ba52-573887bbba50")
 	)
-	(label "IN-ToF4"
-		(at 276.86 184.15 0)
+	(label "SCL TOF"
+		(at 307.34 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "56e832a8-230c-46d7-98e5-d5cce9de4af1")
+		(uuid "5998e7d2-0bea-4c88-8c50-20aa7857eb1b")
 	)
 	(label "PWMB2"
 		(at 349.25 171.45 180)
@@ -6467,15 +6998,15 @@
 		)
 		(uuid "5e468621-bfa8-485a-a728-56b545cb705d")
 	)
-	(label "IN-ToF1"
-		(at 276.86 186.69 0)
+	(label "X-SHUT 3"
+		(at 284.48 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "64ddbff8-fd89-4b91-9dfc-ec674d79410c")
+		(uuid "681aefcf-5412-4e04-818f-a35d096bcfb0")
 	)
 	(label "PWMA2"
 		(at 278.13 199.39 0)
@@ -6527,8 +7058,8 @@
 		)
 		(uuid "8af48f43-186f-41e8-bada-ed31b6c8d18e")
 	)
-	(label "IN-ToF1"
-		(at 276.86 176.53 0)
+	(label "SDA TOF"
+		(at 274.32 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6537,15 +7068,15 @@
 		)
 		(uuid "952e0ee9-5d73-49bb-b72a-c27be2c0c3f1")
 	)
-	(label "IN-ToF3"
-		(at 276.86 191.77 0)
+	(label "SDA TOF"
+		(at 321.31 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "aec0bdba-4004-4f70-bc73-56431f3af52d")
+		(uuid "9be03d13-79d1-46da-97ed-ad33ba2cc20f")
 	)
 	(label "PWMB1"
 		(at 276.86 173.99 0)
@@ -6567,8 +7098,28 @@
 		)
 		(uuid "bb36c47d-280a-48d0-b292-700e51ce4e43")
 	)
-	(label "IN-ToF2"
-		(at 276.86 179.07 0)
+	(label "IR-4"
+		(at 337.82 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c43699e7-d7c5-4a00-9922-72cc0fba1a60")
+	)
+	(label "X-SHUT 4"
+		(at 279.4 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4b9dbf1-f613-4bae-9c9d-075831c6ef63")
+	)
+	(label "SCL TOF"
+		(at 274.32 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6576,6 +7127,16 @@
 			(justify left bottom)
 		)
 		(uuid "c5fa851e-250c-43df-bd74-a32bfdaaf488")
+	)
+	(label "X-SHUT 1 "
+		(at 284.48 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c973a476-d2c3-483c-9d21-a818f24c5e1e")
 	)
 	(label "BOOT"
 		(at 189.23 46.99 0)
@@ -6617,6 +7178,16 @@
 		)
 		(uuid "d63b79ff-869b-41d6-9055-4f3775ea7893")
 	)
+	(label "IR-3"
+		(at 284.48 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6718ca2-a57d-449e-ae72-f7af38b1c55a")
+	)
 	(label "DP"
 		(at 71.12 91.44 0)
 		(effects
@@ -6627,15 +7198,25 @@
 		)
 		(uuid "e278b375-dd1d-4556-bacf-29db523c5abc")
 	)
-	(label "IN-ToF3"
-		(at 276.86 181.61 0)
+	(label "IR-4"
+		(at 284.48 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e5e01fc6-3085-44c1-a7ec-cbe1fe4d460f")
+		(uuid "e9e9623a-66cf-4def-8391-d848e58a2ef8")
+	)
+	(label "IR-1"
+		(at 284.48 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5f36253-2720-4fc6-aef0-dfbaced68206")
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0805")
@@ -6820,6 +7401,98 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 287.02 170.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "114553e0-c114-461a-9f77-48d3ac720612")
+		(property "Reference" "R10"
+			(at 289.56 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 291.592 171.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.12 1.12)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 287.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 287.02 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C125891"
+			(at 287.02 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b2e6688-305e-4ea9-9300-37d36f798191")
+		)
+		(pin "1"
+			(uuid "91e488a6-7311-42ce-9033-a605b4727161")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 217.17 95.25 0)
 		(unit 1)
@@ -6831,7 +7504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "118a9c87-23a3-475b-aa96-4f5de948d507")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 217.17 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6891,7 +7564,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6909,7 +7582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11bbdd32-6b2a-4ec8-84a2-5cd020dcd963")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 347.98 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6969,7 +7642,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7223,7 +7896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2becf6b8-2343-438d-90e3-d2a157751589")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR02"
 			(at 29.21 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7283,7 +7956,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR035")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7392,7 +8065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39c9650a-0e1f-41c6-90ee-827a78a0d5b4")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 339.09 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7495,7 +8168,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7625,7 +8298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40bc0fea-478e-4db1-9f9e-b02f316145f3")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 217.17 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7685,7 +8358,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8285,7 +8958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4afc75ee-4b86-4ad5-b42d-c24a60802c97")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR023"
 			(at 320.04 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8345,7 +9018,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR015")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8363,7 +9036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "548243a4-9eda-4f1d-909c-373dbf4b7a8e")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 240.03 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,7 +9111,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8456,7 +9129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a37f7b-1baa-44fc-9e82-312e57d6f95b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 223.52 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8516,7 +9189,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8875,6 +9548,165 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 306.07 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5db2f7ad-3ded-4b53-8b80-dcdd9cbd283e")
+		(property "Reference" "IR-2"
+			(at 308.61 204.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 308.61 207.5179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 311.15 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 306.07 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5b23ab4-cf46-458f-b345-7e6375841410")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "IR-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TestPoint_1")
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 306.07 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6008be5b-2b44-4349-bc09-961e1399b589")
+		(property "Reference" "X-SHUT1"
+			(at 308.61 180.8479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 308.61 183.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 311.15 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 306.07 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c9bd0f4-4466-44ee-941b-d394ce24baab")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "X-SHUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:DB125-3.5-4P-GN")
 		(at 334.01 121.92 0)
 		(unit 1)
@@ -8886,7 +9718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6075c613-0fa8-4476-9033-cb4473191d98")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 339.09 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8989,7 +9821,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9410,6 +10242,85 @@
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 307.34 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "725408e5-f489-41fc-9808-05182d389ea0")
+		(property "Reference" "SCL1"
+			(at 309.88 170.6879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 309.88 173.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 312.42 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 307.34 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "095e9301-a8be-4586-bf1c-3b63f6364fd4")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "SCL1")
 					(unit 1)
 				)
 			)
@@ -10075,7 +10986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c95f10d-47d6-4b51-8262-15955de6d946")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 201.93 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10150,7 +11061,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10491,6 +11402,85 @@
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 321.31 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e67d2ce-94d6-4bc1-a3b1-6aa6c4af10ab")
+		(property "Reference" "SDA1"
+			(at 323.85 170.6879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 323.85 173.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 326.39 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 321.31 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01520381-166b-457c-9c16-2414518ab2f5")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "SDA1")
 					(unit 1)
 				)
 			)
@@ -10872,7 +11862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaaeecda-7727-440a-9ac9-3b9c090b83f4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 237.49 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10932,7 +11922,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11047,6 +12037,177 @@
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 293.37 173.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1e5cb5b-577e-4e29-b8c8-985eba99e0d8")
+		(property "Reference" "R11"
+			(at 295.91 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 297.942 175.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.12 1.12)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 293.37 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 293.37 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C125891"
+			(at 293.37 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb0ec862-c064-42fe-8b72-0957dd8adffa")
+		)
+		(pin "1"
+			(uuid "7e64f4d3-3c36-4aad-bbb7-492d5451b320")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 322.58 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5befb01-03fd-4286-953f-4eb06625600b")
+		(property "Reference" "IR-3"
+			(at 325.12 207.5179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 325.12 210.0579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 327.66 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 322.58 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb8e955a-aa90-4800-b029-5c38ec87d388")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "IR-3")
 					(unit 1)
 				)
 			)
@@ -11263,7 +12424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c401f065-3785-4f1b-9130-31aebbf2885d")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR024"
 			(at 322.58 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11323,7 +12484,86 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR036")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 337.82 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c53ab296-ad78-47c4-afb7-93bdddd4db86")
+		(property "Reference" "IR-4"
+			(at 340.36 203.7079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 340.36 206.2479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 342.9 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 337.82 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5419f531-ddf7-4318-8dc2-d958193b8016")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "IR-4")
 					(unit 1)
 				)
 			)
@@ -11496,6 +12736,85 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 322.58 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceda6bdf-cadf-48b5-947c-e3854003cfb9")
+		(property "Reference" "X-SHUT3"
+			(at 325.12 180.8479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 325.12 183.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 327.66 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 322.58 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9e0c557-96ee-4216-a93a-cf33bd0c8f26")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "X-SHUT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 199.39 27.94 0)
 		(unit 1)
@@ -11507,7 +12826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf4a7e2c-5410-4cb2-a229-8baa2ad3416a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 199.39 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -11567,7 +12886,85 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR017")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 287.02 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3dab9fb-dd0b-4caf-b714-82a991167faf")
+		(property "Reference" "#PWR022"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 287.02 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 287.02 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41b70871-422c-40a7-b0c3-ae9340445af1")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11664,7 +13061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da3c72ea-07b4-462f-b9bb-6b192e1054fc")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 261.62 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11724,7 +13121,86 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR023")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 306.07 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc5b7ba7-22a1-4419-b23b-a1f919627f38")
+		(property "Reference" "X-SHUT2"
+			(at 308.61 191.0079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 308.61 193.5479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 311.15 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 306.07 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b38ce2cc-cb4c-45d0-b7c3-7536a3cbdb92")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "X-SHUT2")
 					(unit 1)
 				)
 			)
@@ -11824,6 +13300,85 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 322.58 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb8a4096-b290-44f5-8f4d-041e025c9713")
+		(property "Reference" "IR-1"
+			(at 325.12 193.5479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 325.12 196.0879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 327.66 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 322.58 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a233483b-9c82-4607-bf17-fe90f833b0d1")
+		)
+		(instances
+			(project "ZumoRobot"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "IR-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 214.63 0)
 		(unit 1)
@@ -11835,7 +13390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb8ea83a-7f8e-49c7-a43f-6e07cf908a64")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 222.25 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -11895,7 +13450,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)

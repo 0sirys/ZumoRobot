@@ -2522,7 +2522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c9e1d52-21e0-4a40-b703-5948669b233d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 203.2 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2582,7 +2582,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56d28b2d-788e-4291-9490-b3122ea85e1d")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 278.13 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +2672,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2794,7 +2794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "746bfd92-3589-49d0-985e-df99c26ccdd4")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -2854,7 +2854,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2873,7 +2873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "768edeb4-4f9f-4e4e-895f-65673e4aaaeb")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 287.02 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2933,7 +2933,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2951,7 +2951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8920604d-c6d3-4279-9f2d-a9c5b405697a")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 229.87 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3035,7 +3035,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3054,7 +3054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "907fe20b-26ae-4934-b412-d7ddd2e11ae9")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 227.33 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3114,7 +3114,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3132,7 +3132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a32ad6e1-df0f-4673-a953-68b55ecd58e8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 287.02 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3192,7 +3192,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3303,7 +3303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2f2e359-031c-4f62-a5b5-80e921cf4c44")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 259.05 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3398,7 +3398,7 @@
 		(instances
 			(project "ZumoRobot"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)

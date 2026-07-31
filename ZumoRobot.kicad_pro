@@ -681,7 +681,7 @@
         "uuid": "b3437995-bb94-4c2f-9ed8-b1af477fe956"
       }
     ],
-    "used_designators": "U4-5",
+    "used_designators": "U1-5,IR\\-4,SCL\\-TOF1,R1-14,SCL\\-TOf1-4,J1,JP1-18,#PWR1-35,#PWR37-38,sca\\-tof1-2,SCA\\-TOF1,TP1,SDA\\-TOF1,C1-10,X\\-SHUT1-6,CN1-4,D1-6,H1-4,L1,LED1,SW1-2,USB1,SCL1,SDA1",
     "variants": []
   },
   "sheets": [
