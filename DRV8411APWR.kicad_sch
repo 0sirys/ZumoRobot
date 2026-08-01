@@ -2337,7 +2337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CP_SMD_D6.3mm_H5.4mm"
+		(property "Value" "10uf"
 			(at 172.72 67.9449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2371,6 +2371,17 @@
 			)
 		)
 		(property "Description" "SMD Electrolytic Capacitor, 6.3mm Diameter, 5.4mm Height, US Symbol, Alternate KiCad Library"
+			(at 176.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C326595"
 			(at 176.53 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2698,7 +2709,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C122538"
+		(property "LCSC Part" "C860067"
 			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2867,6 +2878,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C860067"
+			(at 143.51 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c21d0520-dcb6-4a4d-bda3-a72b7caf5293")
 		)
@@ -2905,7 +2927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_0603"
+		(property "Value" "100 nf"
 			(at 186.69 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2939,6 +2961,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 182.88 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 182.88 67.31 0)
 			(hide yes)
 			(show_name no)

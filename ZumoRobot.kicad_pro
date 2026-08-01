@@ -569,7 +569,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "..\\ZumoRobot.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -606,6 +606,12 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
           "show": true
         },
         {
@@ -630,13 +636,49 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -681,7 +723,7 @@
         "uuid": "b3437995-bb94-4c2f-9ed8-b1af477fe956"
       }
     ],
-    "used_designators": "U1-5,IR\\-4,SCL\\-TOF1,R1-14,SCL\\-TOf1-4,J1,JP1-18,#PWR1-35,#PWR37-38,sca\\-tof1-2,SCA\\-TOF1,TP1,SDA\\-TOF1,C1-10,X\\-SHUT1-6,CN1-4,D1-6,H1-4,L1,LED1,SW1-2,USB1,SCL1,SDA1",
+    "used_designators": "U1-5,IR\\-4,SCL\\-TOF1,R1-14,SCL\\-TOf1-4,J1,JP1-18,#PWR1-35,#PWR37-38,sca\\-tof1-2,SCA\\-TOF1,TP1,SDA\\-TOF1,C1-10,X\\-SHUT1-6,CN1-4,D1-6,H1-4,L1,LED1,SW1-4,USB1,SCL1,SDA1",
     "variants": []
   },
   "sheets": [

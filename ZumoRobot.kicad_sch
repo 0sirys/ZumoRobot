@@ -4903,7 +4903,7 @@
 	)
 	(text "switch ON/OFF\n"
 		(exclude_from_sim no)
-		(at 25.146 55.372 0)
+		(at 27.432 56.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5310,7 +5310,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 44.45) (xy 40.64 46.99)
+			(xy 39.37 48.26) (xy 39.37 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6780,7 +6780,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 46.99) (xy 33.02 46.99)
+			(xy 39.37 46.99) (xy 33.02 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7806,8 +7806,8 @@
 	)
 	(symbol
 		(lib_id "power:+7.5V")
-		(at 40.64 44.45 0)
-		(mirror y)
+		(at 39.37 48.26 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7818,7 +7818,7 @@
 		(fields_autoplaced yes)
 		(uuid "285eef9a-8bdf-4d96-b0cb-d5b502242a34")
 		(property "Reference" "#PWR06"
-			(at 40.64 48.26 0)
+			(at 35.56 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,17 +7829,18 @@
 			)
 		)
 		(property "Value" "+7.5V"
-			(at 40.64 39.37 0)
+			(at 43.18 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.12 1.12)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 44.45 0)
+			(at 39.37 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7850,7 +7851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 44.45 0)
+			(at 39.37 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,7 +7862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 40.64 44.45 0)
+			(at 39.37 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9553,7 +9554,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9633,7 +9634,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10253,7 +10254,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11413,7 +11414,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11630,6 +11631,17 @@
 			)
 		)
 		(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
+			(at 222.25 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2913202"
 			(at 222.25 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -12140,7 +12152,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12496,7 +12508,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12741,7 +12753,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13133,7 +13145,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13305,7 +13317,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
