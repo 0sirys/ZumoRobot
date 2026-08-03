@@ -76,7 +76,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|187085000|92400000|9b31af28-b26d-4fe9-8a64-b46ada4aa9a2|60918008-6129-4b37-ad26-a6896977ef74",
+          ""
+        ],
+        [
+          "clearance|187085000|93400000|66b71bc2-2fd2-4a4d-a3fc-c2cc0b7abc86|60918008-6129-4b37-ad26-a6896977ef74",
+          ""
+        ],
+        [
+          "clearance|189115000|92400000|45b2a346-f704-4b9d-8b73-c59560a63bfa|60918008-6129-4b37-ad26-a6896977ef74",
+          ""
+        ],
+        [
+          "clearance|189115000|93400000|d3965721-ec82-42ed-b7c4-4dbe5f3595df|60918008-6129-4b37-ad26-a6896977ef74",
+          ""
+        ],
+        [
+          "solder_mask_bridge|187085000|92400000|9b31af28-b26d-4fe9-8a64-b46ada4aa9a2|60918008-6129-4b37-ad26-a6896977ef74",
+          ""
+        ],
+        [
+          "solder_mask_bridge|187085000|93400000|66b71bc2-2fd2-4a4d-a3fc-c2cc0b7abc86|60918008-6129-4b37-ad26-a6896977ef74",
+          ""
+        ],
+        [
+          "solder_mask_bridge|189115000|92400000|45b2a346-f704-4b9d-8b73-c59560a63bfa|60918008-6129-4b37-ad26-a6896977ef74",
+          ""
+        ],
+        [
+          "solder_mask_bridge|189115000|93400000|d3965721-ec82-42ed-b7c4-4dbe5f3595df|60918008-6129-4b37-ad26-a6896977ef74",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -609,6 +642,12 @@
           "show": false
         },
         {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
@@ -624,12 +663,6 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
