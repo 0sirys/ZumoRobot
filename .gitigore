@@ -1,2 +1,4 @@
-.history/*
-ZumoRobot-backups/
+**/.history/
+fp-info-cache
+*-backups/
+
