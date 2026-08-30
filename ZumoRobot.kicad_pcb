@@ -9283,7 +9283,7 @@
 			(uuid "fb42cbc4-35d4-4f9a-9a77-32bac07da4bf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-S3-WROOM-1U.STEP"
+		(model "${ESPRESSIF_LIBRARY}/3dmodels/espressif.3dshapes/ESP32-S3-WROOM-1U.STEP"
 			(offset
 				(xyz -9 -9.75 0)
 			)
